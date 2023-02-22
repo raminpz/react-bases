@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 const Welcome = (props) => {
     const [counter, setCounter] = useState(0);
     const [semaforo, setSemaforo] = useState(false);
-    const {message, name} = props;
+    const {name} = props;
 
     useEffect(()=>{
         console.log(semaforo)
